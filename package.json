@@ -1,0 +1,50 @@
+{
+  "name": "create-react-tailwind-app",
+  "version": "1.0.0",
+  "description": "A starter template package for React applications with React Router, Tailwind CSS, and Prettier using Vite",
+  "main": "index.js",
+  "bin": {
+    "create-react-tailwind-app": "./bin/create-react-tailwind-app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "node scripts/prepare.js"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "tailwind",
+    "react-router",
+    "prettier",
+    "template",
+    "starter",
+    "boilerplate"
+  ],
+  "author": "Mithran B",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0"
+  },
+  "peerDependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "files": [
+    "template/",
+    "bin/",
+    "scripts/",
+    "index.js",
+    "README.md",
+    "USAGE.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MITHRAN-BALACHANDER/React-template-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MITHRAN-BALACHANDER/React-template-package/issues"
+  },
+  "homepage": "https://github.com/MITHRAN-BALACHANDER/React-template-package#readme"
+}
