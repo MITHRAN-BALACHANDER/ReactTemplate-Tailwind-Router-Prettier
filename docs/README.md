@@ -42,10 +42,6 @@ Welcome to the comprehensive documentation for the React Tailwind Template. This
 - **[Common Patterns](./patterns.md)** - React patterns and best practices
 - **[Adding New Features](./adding-features.md)** - How to extend the template
 
-### 🤝 Contributing & Support
-- **[Contributing Guide](./contributing.md)** - How to contribute to the project
-- **[FAQ](./faq.md)** - Frequently asked questions
-- **[Troubleshooting](./troubleshooting.md)** - Common issues and solutions
 
 ## 🔍 Quick Navigation
 
