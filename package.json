@@ -41,10 +41,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/MITHRAN-BALACHANDER/React-template-package.git"
+    "url": "https://github.com/MITHRAN-BALACHANDER/ReactTemplate-Tailwind-Router-Prettier.git"
   },
   "bugs": {
-    "url": "https://github.com/MITHRAN-BALACHANDER/React-template-package/issues"
+    "url": "https://github.com/MITHRAN-BALACHANDER/ReactTemplate-Tailwind-Router-Prettier/issues"
   },
-  "homepage": "https://github.com/MITHRAN-BALACHANDER/React-template-package#readme"
+  "homepage": "https://github.com/MITHRAN-BALACHANDER/ReactTemplate-Tailwind-Router-Prettier#readme"
 }
