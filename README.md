@@ -105,7 +105,7 @@ After installation, your app includes:
 1. Run `npm run dev` and explore the features
 2. Read [Theme System Guide](./docs/theme-system.md) 
 3. Check [Component Examples](./docs/components.md)
-4. Build your first feature following [Adding Features](./docs/adding-features.md)
+
 
 ## 📄 License
 
