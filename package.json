@@ -1,6 +1,6 @@
 {
   "name": "create-react-tailwind-app-router",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A starter template package for React applications with React Router, Tailwind CSS, and Prettier using Vite",
   "main": "index.js",
   "bin": {
