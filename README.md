@@ -1,6 +1,6 @@
 # Create React Tailwind App Router
 
-A modern React 19 template with Vite, React Router, Tailwind CSS, and complete dark/light mode theming.
+A modern React 19 template with Vite, React Router, Tailwind CSS, and complete dark/light mode theming. **Now supports both JavaScript and TypeScript templates!**
 
 ## ✨ Features
 
@@ -8,6 +8,7 @@ A modern React 19 template with Vite, React Router, Tailwind CSS, and complete d
 - ⚡ **Vite 7.1+** - Lightning-fast development and builds  
 - 🧭 **React Router 6.27+** - Client-side routing with active states
 - 🎨 **Tailwind CSS 4.1+** - Utility-first CSS with dark mode support
+- 🔷 **TypeScript Support** - Optional TypeScript template with full type safety
 - 🌓 **Theme System** - Complete dark/light mode with localStorage persistence
 - 🎯 **Lucide Icons** - Beautiful, customizable icon library
 - 📱 **Responsive Design** - Mobile-first layouts
@@ -18,16 +19,41 @@ A modern React 19 template with Vite, React Router, Tailwind CSS, and complete d
 
 ### Quick Start (NPX)
 ```bash
+# JavaScript template (default)
 npx create-react-tailwind-app-router my-app
-cd my-app
-npm install
-npm run dev
+
+# TypeScript template
+npx create-react-tailwind-app-router my-app --template typescript
+
+# Legacy TypeScript flag (still works)
+npx create-react-tailwind-app-router my-app --typescript
+
+# Interactive template selection
+npx create-react-tailwind-app-router my-app
 ```
+
+### Template Options
+| Template | Description | Command |
+|----------|-------------|---------|
+| **JavaScript** | React with JSX (default) | `--template javascript` |
+| **TypeScript** | React with TSX and full type safety | `--template typescript` |
 
 ### Global Installation
 ```bash
 npm install -g create-react-tailwind-app-router
+
+# JavaScript template (default)
 create-react-tailwind-app-router my-app
+
+# TypeScript template
+create-react-tailwind-app-router my-app --template typescript
+
+# Legacy TypeScript flag (still works)
+create-react-tailwind-app-router my-app --typescript
+
+# Interactive template selection
+create-react-tailwind-app-router my-app
+
 cd my-app
 npm install
 npm run dev
