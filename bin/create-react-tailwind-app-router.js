@@ -4,16 +4,30 @@ const { Command } = require('commander');
 const chalk = require('chalk');
 const fs = require('fs-extra');
 const path = require('path');
+const inquirer = require('inquirer'); // You'll need to install this package
 
 const program = new Command();
 
 program
   .version('1.0.0')
   .description('Create a new React app with Vite, React Router, Tailwind CSS, and Prettier')
-  .argument('<project-name>', 'name of the project')
+  .argument('[project-name]', 'name of the project')
   .option('-t, --typescript', 'use TypeScript template')
   .action(async (projectName, options) => {
     try {
+      // If project name is not provided, prompt the user
+      if (!projectName) {
+        const answers = await inquirer.prompt([
+          {
+            type: 'input',
+            name: 'projectName',
+            message: 'What is the name of your project?',
+            validate: input => input.trim() !== '' ? true : 'Project name cannot be empty'
+          }
+        ]);
+        projectName = answers.projectName;
+      }
+      
       console.log(chalk.blue(`Creating React app: ${projectName}`));
       
       const targetDir = path.join(process.cwd(), projectName);
@@ -46,7 +60,6 @@ program
       console.log(chalk.cyan('  npm run format    # Format code with Prettier'));
       console.log(chalk.cyan('  npm run lint      # Check code with ESLint'));
       console.log(chalk.cyan('  npm run build     # Build for production'));
-      
     } catch (error) {
       console.error(chalk.red('Error creating project:'), error.message);
       process.exit(1);

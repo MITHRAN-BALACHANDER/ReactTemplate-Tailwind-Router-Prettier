@@ -1,14 +1,13 @@
 {
-  "name": "create-react-tailwind-app",
-  "version": "1.0.0",
+  "name": "create-react-tailwind-app-router",
+  "version": "1.1.4",
   "description": "A starter template package for React applications with React Router, Tailwind CSS, and Prettier using Vite",
   "main": "index.js",
   "bin": {
-    "create-react-tailwind-app": "./bin/create-react-tailwind-app.js"
+    "create-react-tailwind-app-router": "bin/create-react-tailwind-app-router.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "node scripts/prepare.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react",
@@ -23,9 +22,10 @@
   "author": "Mithran B",
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "^11.1.1",
     "chalk": "^4.1.2",
-    "commander": "^11.0.0"
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^12.9.3"
   },
   "peerDependencies": {
     "react": "^19.1.1",
@@ -41,7 +41,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/MITHRAN-BALACHANDER/ReactTemplate-Tailwind-Router-Prettier.git"
+    "url": "git+https://github.com/MITHRAN-BALACHANDER/ReactTemplate-Tailwind-Router-Prettier.git"
   },
   "bugs": {
     "url": "https://github.com/MITHRAN-BALACHANDER/ReactTemplate-Tailwind-Router-Prettier/issues"

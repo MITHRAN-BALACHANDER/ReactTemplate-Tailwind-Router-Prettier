@@ -1,15 +1,4 @@
-# React Vite Te### 🛡️ **Development### 🔧 **Configuration Files**
-- 📋 **ESLint Configuration** - React-specific rules with Prettier integration
-- 🎨 **Prettier Configuration** - Consistent formatting across the project
-- 🏗️ **Vite Configuration** - Optimized for development and production
-- 🎯 **Tailwind Configuration** - Content purging and custom theme setup
-- 📦 **PostCSS Configuration** - Plugin setup for Tailwind and Autoprefixer
-- 🚫 **Ignore Files** - Git, Prettier, and ESLint ignore configurationsence**
-- 🚀 **Fast Development Server** - Instant startup and hot module replacement
-- 📱 **Mobile-First Design** - Responsive layouts out of the box
-- 🔍 **Code Quality Tools** - ESLint + Prettier integration for consistent code style
-- 🏗️ **Production Optimized** - Tree-shaking, code splitting, and asset optimization
-- 📦 **Modern Build Setup** - ES modules, dynamic imports, and optimized bundlesPackage
+# Create React Tailwind App Router
 
 A comprehensive CLI tool and npm package that creates a modern, production-ready React application with Vite, React Router, Tailwind CSS, Prettier, and ESLint pre-configured and ready to use.
 
@@ -48,30 +37,14 @@ A comprehensive CLI tool and npm package that creates a modern, production-ready
 - 📦 **PostCSS Configuration** - Plugin setup for Tailwind and Autoprefixer
 - 🚫 **Ignore Files** - Git, Prettier, and ESLint ignore configurations
 
-## Installation
+## Installation & Usage
 
-### Global Installation (Recommended)
+### Quick Start (Recommended)
 
-```bash
-npm install -g react-vite-template-package
-```
-
-### Using npx (No installation required)
+Create a new React app using npx - no installation required:
 
 ```bash
-npx react-vite-template-package my-react-app
-```
-
-## Usage
-
-### Create a new React app
-
-```bash
-# Using global installation
-create-react-vite-app my-react-app
-
-# Using npx
-npx react-vite-template-package my-react-app
+npx create-react-tailwind-app-router my-react-app
 ```
 
 ### Navigate to your project and start developing
@@ -81,6 +54,8 @@ cd my-react-app
 npm install
 npm run dev
 ```
+
+That's it! Your React app with Vite, React Router, Tailwind CSS, and Prettier is ready to go.
 
 ## What's Included
 
@@ -106,9 +81,7 @@ my-react-app/
 ├── .prettierrc               # Prettier formatting configuration
 ├── index.html                # HTML template
 ├── package.json              # Dependencies and scripts
-├── postcss.config.js         # PostCSS configuration
 ├── README.md                 # Project documentation
-├── tailwind.config.js        # Tailwind CSS configuration
 └── vite.config.js            # Vite build configuration
 ```
 
@@ -375,16 +348,16 @@ theme: {
 
 ## Options & CLI Features
 
-### � **Current CLI Options**
+### 🚀 **CLI Usage**
 ```bash
 # Create a new React app
-create-react-vite-app my-react-app
+npx create-react-tailwind-app-router my-react-app
 
 # View help and available options
-create-react-vite-app --help
+npx create-react-tailwind-app-router --help
 
 # Check version
-create-react-vite-app --version
+npx create-react-tailwind-app-router --version
 ```
 
 ### 📋 **What You Get**
@@ -408,7 +381,7 @@ MIT © Mithran B
 
 ## Support
 
-If you have any questions or issues, please open an issue on [GitHub](https://github.com/MITHRAN-BALACHANDER/react-vite-template-package/issues).
+If you have any questions or issues, please open an issue on [GitHub](https://github.com/MITHRAN-BALACHANDER/ReactTemplate-Tailwind-Router-Prettier/issues).
 
 ---
 
