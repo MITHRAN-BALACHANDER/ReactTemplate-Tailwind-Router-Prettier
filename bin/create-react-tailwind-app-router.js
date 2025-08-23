@@ -12,11 +12,17 @@ const __dirname = path.dirname(__filename);
 
 // Available templates
 const templates = {
+  javascript_basic: {
+    name: 'JavaScript (JSX) Basic',
+    description: 'React with JavaScript and JSX Basic',
+    folder: 'template-jsx-basic'
+  },
   javascript: {
     name: 'JavaScript (JSX)',
     description: 'React with JavaScript and JSX',
-    folder: 'template'
+    folder: 'template-jsx'
   },
+  
   typescript: {
     name: 'TypeScript (TSX)',
     description: 'React with TypeScript and TSX',
