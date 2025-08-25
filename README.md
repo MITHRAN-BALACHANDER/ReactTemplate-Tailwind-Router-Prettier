@@ -1,6 +1,6 @@
 # Create React Tailwind App Router
 
-A modern React 19 template with Vite, React Router, Tailwind CSS, and complete dark/light mode theming. **Now supports both JavaScript and TypeScript templates!**
+A modern React 19 template collection with Vite, React Router, Tailwind CSS, and complete dark/light mode theming. **Choose from 3 optimized templates: Basic JSX, Advanced JavaScript, and TypeScript!**
 
 ## ✨ Features
 
@@ -8,91 +8,99 @@ A modern React 19 template with Vite, React Router, Tailwind CSS, and complete d
 - ⚡ **Vite 7.1+** - Lightning-fast development and builds  
 - 🧭 **React Router 6.27+** - Client-side routing with active states
 - 🎨 **Tailwind CSS 4.1+** - Utility-first CSS with dark mode support
-- 🔷 **TypeScript Support** - Optional TypeScript template with full type safety
+- 🔷 **TypeScript Support** - Full TypeScript template with comprehensive type safety
+- 🟨 **Multiple Templates** - Choose from Basic, Advanced JavaScript, or TypeScript
 - 🌓 **Theme System** - Complete dark/light mode with localStorage persistence
 - 🎯 **Lucide Icons** - Beautiful, customizable icon library
-- 📱 **Responsive Design** - Mobile-first layouts
+- 📱 **Responsive Design** - Mobile-first layouts with comprehensive UI components
 - 🔧 **Developer Tools** - ESLint, Prettier, and VS Code configuration
-- 📚 **Educational** - JSDoc comments and comprehensive documentation
+- 📚 **Educational** - Comprehensive documentation and learning examples
+- 🎨 **UI Component Library** - Pre-built, theme-aware components
 
 ## 🚀 Installation
 
 ### Quick Start (NPX)
+
 ```bash
-# JavaScript template (default)
+# Interactive template selection (recommended)
 npx create-react-tailwind-app-router my-app
 
-# TypeScript template
-npx create-react-tailwind-app-router my-app --template typescript
+# JavaScript template with comprehensive features (default)
+npx create-react-tailwind-app-router my-app --js
 
-# Legacy TypeScript flag (still works)
+# Basic JavaScript template (minimal setup)
+npx create-react-tailwind-app-router my-app --basic
+
+# TypeScript template with full type safety
 npx create-react-tailwind-app-router my-app --typescript
 
-# Interactive template selection
-npx create-react-tailwind-app-router my-app
+# Explicit template selection
+npx create-react-tailwind-app-router my-app -t javascript
+npx create-react-tailwind-app-router my-app -t jsx-basic
+npx create-react-tailwind-app-router my-app -t typescript
 ```
 
 ### Template Options
-| Template | Description | Command |
-|----------|-------------|---------|
-| **JavaScript** | React with JSX (default) | `--template javascript` |
-| **TypeScript** | React with TSX and full type safety | `--template typescript` |
+
+| Template | Description | Features | Command |
+|----------|-------------|----------|---------|
+| **jsx-basic** | Minimal React setup | Essential features only | `--basic` or `-t jsx-basic` |
+| **javascript** | Comprehensive JavaScript | Full UI library, themes, docs | `--js` or `-t javascript` |
+| **typescript** | Full TypeScript support | Type safety + all JS features | `--typescript` or `-t typescript` |
 
 ### Global Installation
+
 ```bash
 npm install -g create-react-tailwind-app-router
 
-# JavaScript template (default)
-create-react-tailwind-app-router my-app
-
-# TypeScript template
-create-react-tailwind-app-router my-app --template typescript
-
-# Legacy TypeScript flag (still works)
+# Then use any of the template options
 create-react-tailwind-app-router my-app --typescript
-
-# Interactive template selection
-create-react-tailwind-app-router my-app
+create-react-tailwind-app-router my-app --basic
 
 cd my-app
 npm install
 npm run dev
 ```
 
-### Manual Installation
-```bash
-git clone https://github.com/MITHRAN-BALACHANDER/ReactTemplate-Tailwind-Router-Prettier.git my-app
-cd my-app
-npm install
-npm run dev
-```
 
 ## 🏗️ What You Get
 
-### Pre-built Components
-- **Responsive Navbar** with theme toggle and active route highlighting
-- **Theme Toggle** with Sun/Moon icons and smooth transitions  
-- **Sample Pages** - Home, About, Contact with modern design
-- **UI Components** - Buttons, inputs, cards (all theme-aware)
+### jsx-basic Template (Minimal)
 
-### Development Features
-- **Dark/Light Mode** - Complete theme system with persistence
+- **React 19** - Latest React with minimal configuration
+- **Vite 7.1+** - Fast development server and optimized builds
+- **Tailwind CSS 4.1+** - Essential utility-first styling
+- **React Router 6.27+** - Basic routing setup
+- **ESLint & Prettier** - Code quality and formatting
+
+### javascript Template (Comprehensive)
+
+Everything from jsx-basic plus:
+
+- **Complete UI Library** - Navigation, buttons, cards, forms
+- **Theme System** - Dark/light mode with LocalStorage persistence
+- **Responsive Navbar** - Theme toggle and active route highlighting
+- **Sample Pages** - Home, About, Contact with modern design
 - **Custom Hooks** - localStorage, debounce, window size utilities
 - **Context API** - Global state management with theme handling
+- **Lucide React Icons** - Beautiful icon library integration
 - **Form Handling** - Contact form with validation examples
-- **Responsive Design** - Mobile-first approach with Tailwind breakpoints
 
-### Configuration
-- **ESLint** - React-specific rules with Prettier integration
-- **Prettier** - Consistent code formatting
-- **Vite Config** - Optimized for development and production
-- **Tailwind Config** - Dark mode support and custom theme
-- **VS Code Settings** - Recommended extensions and workspace config
+### typescript Template (Type-Safe)
+
+Everything from javascript plus:
+
+- **TypeScript 5.6+** - Full type safety and IntelliSense
+- **Strict Type Configuration** - Comprehensive tsconfig.json
+- **Typed Components** - All components with proper interfaces
+- **Type-Safe Routing** - React Router with TypeScript integration
+- **Enhanced Development** - Better error catching and code completion
 
 
 ## 🎨 Theme System
 
 **Toggle Themes:**
+
 - Click Sun/Moon icon in navbar
 - Automatic localStorage persistence
 - Smooth transitions between modes
@@ -116,21 +124,60 @@ npm run dev
 - **[Examples](./docs/examples.md)** - Code patterns and examples
 - **[Adding Features](./docs/adding-features.md)** - Extend the template
 
-## 🎯 Live Demo
+## 🎯 Getting Started
 
-After installation, your app includes:
+### 1. Create Your Project
 
-1. **Theme Toggle** - Click Sun/Moon in navbar
-2. **Responsive Navigation** - Try resizing browser
-3. **Form Handling** - Contact page with validation
-4. **Route Highlighting** - Active states in navigation
-5. **Theme Persistence** - Refresh browser, theme remembered
+```bash
+# Interactive template selection (recommended)
+npx create-react-tailwind-app-router my-app
+
+# Or choose a specific template:
+npx create-react-tailwind-app-router my-app --basic      # jsx-basic
+npx create-react-tailwind-app-router my-app --js         # javascript  
+npx create-react-tailwind-app-router my-app --typescript # typescript
+```
+
+### 2. Start Development
+
+```bash
+cd my-app
+npm install
+npm run dev
+```
+
+### 3. Explore Your App
+
+Open `http://localhost:5173` and explore based on your template:
+
+**jsx-basic Template:**
+
+- Clean React setup with routing
+- Basic styling with Tailwind CSS
+- Ready for your custom development
+
+**javascript/typescript Templates:**
+
+- Theme Toggle - Click Sun/Moon in navbar
+- Responsive Navigation - Try resizing browser  
+- Form Handling - Contact page with validation
+- Route Highlighting - Active states in navigation
+- Theme Persistence - Refresh browser, theme remembered
 
 ## 🚦 Next Steps
 
-1. Run `npm run dev` and explore the features
-2. Read [Theme System Guide](./docs/theme-system.md) 
-3. Check [Component Examples](./docs/components.md)
+### jsx-basic Template
+
+1. Start building your custom components
+2. Add your styling and layouts
+3. Explore Tailwind CSS documentation
+
+### javascript/typescript Templates
+
+1. Read [Theme System Guide](./docs/theme-system.md)
+2. Check [Component Examples](./docs/components.md)
+3. Explore the custom hooks in `src/hooks/`
+4. Review the Context API setup in `src/context/`
 
 
 ## 📄 License
