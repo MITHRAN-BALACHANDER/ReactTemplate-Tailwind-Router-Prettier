@@ -2,6 +2,13 @@
 
 A modern React 19 template collection with Vite, React Router, Tailwind CSS, and complete dark/light mode theming. **Choose from 3 optimized templates: Basic JSX, Advanced JavaScript, and TypeScript!**
 
+# Create React Tailwind App Router
+
+[![npm version](https://img.shields.io/npm/v/create-react-tailwind-app-router?logo=npm&color=crimson&style=for-the-badge)](https://www.npmjs.com/package/create-react-tailwind-app-router)
+[![Downloads](https://img.shields.io/npm/dt/create-react-tailwind-app-router?logo=npm&color=blue&style=for-the-badge)](https://www.npmjs.com/package/create-react-tailwind-app-router)
+[![GitHub Stars](https://img.shields.io/github/stars/MITHRAN-BALACHANDER/ReactTemplate-Tailwind-Router-Prettier?logo=github&color=yellow&style=for-the-badge)](https://github.com/MITHRAN-BALACHANDER/ReactTemplate-Tailwind-Router-Prettier/stargazers)
+[![License](https://img.shields.io/github/license/MITHRAN-BALACHANDER/ReactTemplate-Tailwind-Router-Prettier?color=green&style=for-the-badge)](https://github.com/MITHRAN-BALACHANDER/ReactTemplate-Tailwind-Router-Prettier/blob/main/LICENSE)
+
 ##  Features
 
 - ⚛️ **React 19** - Latest version with concurrent features
