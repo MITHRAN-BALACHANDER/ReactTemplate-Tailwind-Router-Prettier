@@ -1,6 +1,6 @@
 {
   "name": "create-react-tailwind-app-router",
-  "version": "2.1.6",
+  "version": "2.1.8",
   "description": "A starter template package for React applications with React Router, Tailwind CSS, and Prettier using Vite. Supports both JavaScript and TypeScript templates.",
   "main": "index.js",
   "bin": {
@@ -31,7 +31,7 @@
     "@inquirer/prompts": "^7.8.3",
     "chalk": "^4.1.2",
     "commander": "^11.0.0",
-    "create-react-tailwind-app-router": "^2.1.6",
+    "create-react-tailwind-app-router": "^2.1.8",
     "fs-extra": "^11.1.1",
     "inquirer": "^12.9.3"
   },

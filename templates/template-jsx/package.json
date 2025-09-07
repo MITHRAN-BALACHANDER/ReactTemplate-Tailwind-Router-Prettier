@@ -13,8 +13,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "react-router-dom": "^6.27.0",
     "tailwindcss": "^4.1.12",
     "@tailwindcss/vite": "^4.1.12",
@@ -30,5 +30,11 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "prettier": "^3.3.3",
     "vite": "^7.1.2"
+  },
+  "overrides": {
+    "lucide-react": {
+      "react": "^19.1.1",
+      "react-dom": "^19.1.1"
+    }
   }
 }

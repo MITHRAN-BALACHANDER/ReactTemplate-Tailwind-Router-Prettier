@@ -2,7 +2,7 @@
 
 A modern React 19 template collection with Vite, React Router, Tailwind CSS, and complete dark/light mode theming. **Choose from 3 optimized templates: Basic JSX, Advanced JavaScript, and TypeScript!**
 
-## ✨ Features
+##  Features
 
 - ⚛️ **React 19** - Latest version with concurrent features
 - ⚡ **Vite 7.1+** - Lightning-fast development and builds  
@@ -23,17 +23,7 @@ A modern React 19 template collection with Vite, React Router, Tailwind CSS, and
 
 ```bash
 # Interactive template selection (recommended)
-npx create-react-tailwind-app-router my-app
-
-# JavaScript template with comprehensive features (default)
-npx create-react-tailwind-app-router my-app --js
-
-# Basic JavaScript template (minimal setup)
-npx create-react-tailwind-app-router my-app --basic
-
-# TypeScript template with full type safety
-npx create-react-tailwind-app-router my-app --typescript
-
+npx create-react-tailwind-app-router 
 # Explicit template selection
 npx create-react-tailwind-app-router my-app -t javascript
 npx create-react-tailwind-app-router my-app -t jsx-basic
@@ -54,14 +44,14 @@ npx create-react-tailwind-app-router my-app -t typescript
 npm install -g create-react-tailwind-app-router
 
 # Then use any of the template options
-create-react-tailwind-app-router my-app --typescript
-create-react-tailwind-app-router my-app --basic
+#Interactive template selection (recommended)
+create-react-tailwind-app-router my-app  
+
 
 cd my-app
 npm install
 npm run dev
 ```
-
 
 ## 🏗️ What You Get
 
@@ -96,7 +86,6 @@ Everything from javascript plus:
 - **Type-Safe Routing** - React Router with TypeScript integration
 - **Enhanced Development** - Better error catching and code completion
 
-
 ## 🎨 Theme System
 
 **Toggle Themes:**
@@ -104,7 +93,6 @@ Everything from javascript plus:
 - Click Sun/Moon icon in navbar
 - Automatic localStorage persistence
 - Smooth transitions between modes
-
 
 ## 🛠️ Scripts
 
@@ -130,7 +118,7 @@ Everything from javascript plus:
 
 ```bash
 # Interactive template selection (recommended)
-npx create-react-tailwind-app-router my-app
+npx create-react-tailwind-app-router 
 
 # Or choose a specific template:
 npx create-react-tailwind-app-router my-app --basic      # jsx-basic
@@ -141,7 +129,7 @@ npx create-react-tailwind-app-router my-app --typescript # typescript
 ### 2. Start Development
 
 ```bash
-cd my-app
+cd app-name
 npm install
 npm run dev
 ```
@@ -178,7 +166,6 @@ Open `http://localhost:5173` and explore based on your template:
 2. Check [Component Examples](./docs/components.md)
 3. Explore the custom hooks in `src/hooks/`
 4. Review the Context API setup in `src/context/`
-
 
 ## 📄 License
 
