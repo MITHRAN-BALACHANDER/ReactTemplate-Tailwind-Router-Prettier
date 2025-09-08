@@ -159,6 +159,15 @@ Open `http://localhost:5173` and explore based on your template:
 - Route Highlighting - Active states in navigation
 - Theme Persistence - Refresh browser, theme remembered
 
+## 📊 Performance (Lighthouse)
+| Metric         | Score |
+|----------------|-------|
+| Performance    | 100   |
+| Accessibility  | 100   |
+| Best Practices | 100   |
+| SEO            | 82    |
+
+
 ## 🚦 Next Steps
 
 ### jsx-basic Template
